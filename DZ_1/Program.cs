@@ -164,5 +164,3 @@
 //     Console.WriteLine(numberC);
 //     Console.Write("Число не имеет третьей цифры");
 // }
-
-
