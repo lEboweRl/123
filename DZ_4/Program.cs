@@ -135,16 +135,16 @@
 // }
 // ___________________________________________________________________________________
 // В Указанном массиве вещественных чисел найдите разницу между максимальным и минимальным элементом
-// double[] array = new double[20];
-// for (int i = 0; i < array.Length; i++) array[i] = new Random().NextDouble()*10;
-// double max = array[0], min = array[0];
+double[] array = new double[20];
+for (int i = 0; i < array.Length; i++) array[i] = new Random().NextDouble()*10;
+double max = array[0], min = array[0];
 
-// for (int i = 1; i < array.Length; i++) if (array[i] > max) max = array[i];
-// for (int i = 1; i < array.Length; i++) if (array[i] < min) min = array[i];
+for (int i = 1; i < array.Length; i++) if (array[i] > max) max = array[i];
+for (int i = 1; i < array.Length; i++) if (array[i] < min) min = array[i];
 
-// for (int i = 0; i < array.Length; i++) 
-// Console.WriteLine(" " + array[i]);
-// Console.WriteLine();
-// Console.WriteLine("Максимальное значение:  " + max);
-// Console.WriteLine("Минимальное значение:  " + min);
-// Console.WriteLine("Разница максимального и минимального значения:  " + (max - min));
+for (int i = 0; i < array.Length; i++) 
+Console.WriteLine(" " + array[i]);
+Console.WriteLine();
+Console.WriteLine("Максимальное значение:  " + max);
+Console.WriteLine("Минимальное значение:  " + min);
+Console.WriteLine("Разница максимального и минимального значения:  " + (max - min));
